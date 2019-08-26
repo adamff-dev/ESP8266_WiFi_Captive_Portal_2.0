@@ -9,11 +9,38 @@ The internal LED will notify us, blinking 5 times, when the credentials are rece
 
 # Screenshots
 
-<h2>"/Index":</h2>
-<img width="35%" src="https://raw.githubusercontent.com/BlueArduino20/ESP8266_WiFi_Captive_Portal_2.0/master/src/1_index.png" title="Index">
+<table>
+  <tr>
+    <th>192.168.1.1/index</th>
+    <th>192.168.1.1/post</th> 
+    <th>192.168.1.1/creds</th>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/BlueArduino20/ESP8266_WiFi_Captive_Portal_2.0/master/src/1_index.png" title="Index"></td>
+    <td><img src="https://raw.githubusercontent.com/BlueArduino20/ESP8266_WiFi_Captive_Portal_2.0/master/src/2_post.png" title="Post"></td>
+    <td><img src="https://raw.githubusercontent.com/BlueArduino20/ESP8266_WiFi_Captive_Portal_2.0/master/src/3_creds.png" title="Creds"></td>
+  </tr>
+</table>
 
-<h2>"/Post":</h2>
-<img width="35%" src="https://raw.githubusercontent.com/BlueArduino20/ESP8266_WiFi_Captive_Portal_2.0/master/src/2_post.png" title="Post">
 
-<h2>"/Creds":</h2>
-<img  width="35%" src="https://raw.githubusercontent.com/BlueArduino20/ESP8266_WiFi_Captive_Portal_2.0/master/src/3_creds.png" title="Creds">
+# Installation (ESP8266 Flasher - Easy way)
+
+1. Download <a href="https://github.com/nodemcu/nodemcu-flasher"><b>ESP8266 Flasher></b></a>.
+2. Download the <b><a href="https://github.com/BlueArduino20/ESP8266_WiFi_Captive_Portal_2.0/raw/master/SSID-Free_WiFi.bin">SSID-Free_WiFi.bin</b></a> file.
+3. Open the ESP8266 Flasher and select the Node MCU port
+<img width="80%" src="https://raw.githubusercontent.com/BlueArduino20/ESP8266_WiFi_Captive_Portal_2.0/master/src/1_port_selection.PNG">
+4. Then, go to the config tab and select the .bin file you've just downloaded.
+<img width="80%" src="https://raw.githubusercontent.com/BlueArduino20/ESP8266_WiFi_Captive_Portal_2.0/master/src/2_file_selection.png">
+5. Finally, go back to the first tab and press "Flash"
+6. Your Node MCU is ready!
+
+# Installation (Arduino)
+
+1. Open your <a href="https://www.arduino.cc/en/main/software">Arduino IDE</a> and go to "File -> Preferences -> Boards Manager URLs" and paste the following link:
+``http://arduino.esp8266.com/stable/package_esp8266com_index.json``
+2. Go to "Tools -> Board -> Boards Manager, search "esp8266" and install esp8266"
+3. Go to "Tools -> Board" and select you board
+4. Download and open the sketch "<a href="https://github.com/BlueArduino20/ESP8266_WiFi_Captive_Portal_2.0/blob/master/ESP8266_WiFi_Captive_Portal_2.0.ino"><b>ESP8266_WiFi_Captive_Portal_2.0.ino</b></a>"
+5. You can optionally change some parameters like the SSID name and texts of the page like title, subtitle, text body...
+6. Upload the code into your board.
+7. You are done!
