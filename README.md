@@ -45,8 +45,8 @@ The internal LED will notify us, blinking 5 times, when the credentials are rece
 
 1. Open your <a href="https://www.arduino.cc/en/main/software">Arduino IDE</a> and go to "File -> Preferences -> Boards Manager URLs" and paste the following link:
 ``http://arduino.esp8266.com/stable/package_esp8266com_index.json``
-2. Go to "Tools -> Board -> Boards Manager, search "esp8266" and install esp8266"
-3. Go to "Tools -> Board" and select you board
+2. Go to "Tools -> Board -> Boards Manager", search "esp8266" and install esp8266
+3. Go to "Tools -> Board" and select you board"
 4. Download and open the sketch "<a href="https://github.com/BlueArduino20/ESP8266_WiFi_Captive_Portal_2.0/blob/master/ESP8266_WiFi_Captive_Portal_2.0.ino"><b>ESP8266_WiFi_Captive_Portal_2.0.ino</b></a>"
 5. You can optionally change some parameters like the SSID name and texts of the page like title, subtitle, text body...
 6. Upload the code into your board.
