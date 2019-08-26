@@ -41,7 +41,7 @@ The internal LED will notify us, blinking 5 times, when the credentials are rece
 
 6. Your Node MCU is ready!
 
-# Installation (Arduino)
+# Installation (Arduino IDE)
 
 1. Open your <a href="https://www.arduino.cc/en/main/software">Arduino IDE</a> and go to "File -> Preferences -> Boards Manager URLs" and paste the following link:
 ``http://arduino.esp8266.com/stable/package_esp8266com_index.json``
