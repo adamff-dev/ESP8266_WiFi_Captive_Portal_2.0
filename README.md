@@ -51,3 +51,6 @@ The internal LED will notify us, blinking 5 times, when the credentials are rece
 5. You can optionally change some parameters like the SSID name and texts of the page like title, subtitle, text body...
 6. Upload the code into your board.
 7. You are done!
+
+## Disclaimer
+This project is for testing and educational purposes. Use it only against your own networks and devices. I don't take any responsibility for what you do with this program.
