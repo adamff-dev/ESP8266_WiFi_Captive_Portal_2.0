@@ -5,15 +5,15 @@ The internal LED will notify us, blinking 5 times, when the credentials are rece
 
 <b>Warning!</b> Your saved passwords will disappear when you restart/power off the ESP8266.
 
-<b>Note:</b> If you want to see the stored credetials go to <a>"**http**://</a>yourcurrentwebsite.com<a>/creds</a>" or "**192.168.1.1**<a>/creds</a>"
+<b>Note:</b> If you want to see the stored credetials go to <a>"**http**://</a>yourcurrentwebsite.com<a>/creds</a>" or "**172.0.0.1**<a>/creds</a>"
 
 # Screenshots
 
 <table>
   <tr>
-    <th>192.168.1.1/index</th>
-    <th>192.168.1.1/post</th> 
-    <th>192.168.1.1/creds</th>
+    <th>172.0.0.1/index</th>
+    <th>172.0.0.1/post</th> 
+    <th>172.0.0.1/creds</th>
   </tr>
   <tr>
     <td><img src="https://raw.githubusercontent.com/BlueArduino20/ESP8266_WiFi_Captive_Portal_2.0/master/src/1_index.png" title="Index"></td>
