@@ -1,9 +1,9 @@
 # ESP8266 WiFi Captive Portal 2.0
-WiFi captive portal for the NodeMCU (ESP8266 Module) with DNS spoofing. (It asks the user for an email and a password for a fake register in order to "get connected to the internet".
+WiFi captive portal for the NodeMCU (ESP8266 Module) with DNS spoofing. It asks the user for an email and a password for a fake sign in, in order to "get connected to the internet".
 
-The internal LED will notify us, blinking 5 times, when the credentials are received.
+The built-in LED will blink 5 times when some credentials are posted.
 
-<b>Warning!</b> Your saved passwords will disappear when you restart/power off the ESP8266.
+<b>Warning!</b> Your saved credentials will disappear when you restart/power off the ESP8266.
 
 <b>Note:</b> If you want to see the stored credetials go to <a>"**http**://</a>yourcurrentwebsite.com<a>/creds</a>" or "**172.0.0.1**<a>/creds</a>"
 
