@@ -60,8 +60,8 @@ String creds() {
 
 String index() {
   return header(TITLE) + "<div>" + BODY + "</ol></div><div><form action=/post method=post>" +
-    "<b>Email:</b> <center><input type=text autocomplete=email name=email></input></center>" +
-    "<b>Password:</b> <center><input type=password name=password></input><input type=submit value=\"Sign in\"></form></center>" + footer();
+    "<b>Email:</b> <center><input type=text autocomplete=email name=email></center>" +
+    "<b>Password:</b> <center><input type=password name=password><input type=submit value=\"Sign in\"></center></form>" + footer();
 }
 
 String posted() {
