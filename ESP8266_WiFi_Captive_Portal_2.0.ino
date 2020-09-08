@@ -1,6 +1,5 @@
 // ESP8266 WiFi Captive Portal
-// By BlueArduino20
-// Based on: PopupChat https://github.com/tlack/popup-chat
+// By 125K (github.com/125K)
 
 // Includes
 #include <ESP8266WiFi.h>
