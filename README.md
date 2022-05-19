@@ -1,4 +1,9 @@
 # ESP8266 WiFi Captive Portal 2.0
+
+## Disclaimer
+This project is for testing and educational purposes. Use it only against your own networks and devices. I don't take any responsibility for what you do with this program.
+
+## About this project
 WiFi captive portal for the NodeMCU (ESP8266 Module) with DNS spoofing. It asks the user for an email and a password for a fake sign in, in order to "get connected to the internet".
 
 The built-in LED will blink 5 times when some credentials are posted.
@@ -53,6 +58,3 @@ The built-in LED will blink 5 times when some credentials are posted.
 5. You can optionally change some parameters like the SSID name and texts of the page like title, subtitle, text body...
 6. Upload the code into your board.
 7. You are done!
-
-## Disclaimer
-This project is for testing and educational purposes. Use it only against your own networks and devices. I don't take any responsibility for what you do with this program.
